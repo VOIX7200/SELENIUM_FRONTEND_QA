@@ -365,6 +365,7 @@ public static void jsExecution(WebElement element){
 		  driver.navigate().back();
 		  driver.navigate().refresh();
 		  driver.navigate().to(url);
+		  Thread.sleep(6000);
 		 // driver.navigate().back();
 		 // driver.navigate().refresh();
 		 // driver.navigate().forward();
