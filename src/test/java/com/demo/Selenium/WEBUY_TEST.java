@@ -165,7 +165,7 @@ public class WEBUY_TEST {
      System.out.println("print the list " + bookInfoName.get(2));
   // BRING IN SELENIUM WEBDRIVER      
    // WebDriver driver;
-   WebDriverManager.chromedriver().setup();
+    WebDriverManager.chromedriver().setup();
  	//WebDriverManager.edgedriver().setup();
  	driver = new ChromeDriver();
  	//driver = new EdgeDriver();
@@ -329,9 +329,9 @@ public class WEBUY_TEST {
 	 jsExecution(login);
 	 
 	 Thread.sleep(5000);
-	// WebElement gotoBasket = driver.findElement(By.xpath("//button [@class='button-primary']"));
-	// jsExecution(gotoBasket);
-	// Thread.sleep(20000);
+	WebElement gotoBasket = driver.findElement(By.xpath("//button [@class='button-primary']"));
+	 jsExecution(gotoBasket);
+	Thread.sleep(20000);
 	 String reportPage ="file:///C:/Users/E%20Anya/eclipse-workspace/SELENIUM_FRONTEND_QA/target/surefire-reports/emailable-report.html";
 	 Thread.sleep(10000);
 	 jsd.getUrl(reportPage);

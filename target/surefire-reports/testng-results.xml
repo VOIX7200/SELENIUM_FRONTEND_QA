@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-24T18:35:08 GMT" name="Suite A" finished-at="2022-01-24T18:36:30 GMT" duration-ms="82281">
+  <suite started-at="2022-05-06T18:20:13 BST" name="Suite A" finished-at="2022-05-06T18:22:12 BST" duration-ms="119055">
     <groups>
     </groups>
-    <test started-at="2022-01-24T18:35:08 GMT" name="WEBUY_TEST" finished-at="2022-01-24T18:36:30 GMT" duration-ms="82281">
+    <test started-at="2022-05-06T18:20:13 BST" name="WEBUY_TEST" finished-at="2022-05-06T18:22:12 BST" duration-ms="119055">
       <class name="com.demo.Selenium.WEBUY_TEST">
-        <test-method signature="weBuyTest()[pri:0, instance:com.demo.Selenium.WEBUY_TEST@53976f5c]" started-at="2022-01-24T18:35:08 GMT" name="weBuyTest" finished-at="2022-01-24T18:36:30 GMT" duration-ms="82224" status="PASS">
+        <test-method signature="weBuyTest()[pri:0, instance:com.demo.Selenium.WEBUY_TEST@318ba8c8]" started-at="2022-05-06T18:20:13 BST" name="weBuyTest" finished-at="2022-05-06T18:22:12 BST" duration-ms="119013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weBuyTest -->
       </class> <!-- com.demo.Selenium.WEBUY_TEST -->
     </test> <!-- WEBUY_TEST -->
   </suite> <!-- Suite A -->
-  <suite started-at="2022-01-24T18:36:30 GMT" name="MySuite" finished-at="2022-01-24T18:36:30 GMT" duration-ms="0">
+  <suite started-at="2022-05-06T18:22:13 BST" name="MySuite" finished-at="2022-05-06T18:22:13 BST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- MySuite -->

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.Selenium.DDTestDemo2">
+      <class name="com.demo.Selenium.WEBUY_TEST">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="weBuyTest"/>
         </methods>
-      </class> <!-- com.demo.Selenium.DDTestDemo2 -->
+      </class> <!-- com.demo.Selenium.WEBUY_TEST -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
